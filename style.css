@@ -196,8 +196,14 @@ p{
     justify-content: center;
     align-items: center;
     gap: 2.5vb;
+    flex-wrap: wrap;
 
 
+}
+
+.skhub{
+    height: 16vw;
+    width: 13vw;
 }
 
 .cd{
@@ -219,6 +225,7 @@ p{
     transition-duration: 0.7s;
     transition-timing-function: ease-in-out;
 }   
+
 
 .cd:hover{
     background-color: aliceblue;
