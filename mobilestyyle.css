@@ -1,0 +1,344 @@
+body {
+    padding-bottom: 50px;
+    background-image: linear-gradient(25deg, black, rgb(35, 35, 35), rgb(55, 55, 55));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    padding: 0px;
+    margin: 0%;
+}
+
+h1 {
+    color: aqua;
+}
+
+p {
+    color: aqua;
+}
+
+/* Navigation bar */
+.nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+    justify-content:left;
+}
+
+.navri{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.alllinks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alllinks li {
+    padding: 10px 0;
+}
+
+.alllinks li a {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+    transition: all 0.4s ease 0s;
+}
+
+.alllinks li a:hover {
+    color: rgb(0, 104, 104);
+    transition: all 0.4s ease 0s;
+}
+
+.navph {
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+}
+
+.navle{
+    display: none;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 20px 0;
+}
+
+.allitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.sbb {
+    height: 40px;
+    width: 40px;
+}
+
+.sbbb {
+    height: 58px;
+    width: 58px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.sbbb:hover {
+    scale: 1.3;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+
+/* Main content */
+.maint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.mname {
+    text-align: center;
+}
+
+.mn {
+    font-size: 40px;
+    color: rgb(26, 255, 255);
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px;
+    padding-top: 80px;
+}
+
+.mpara{
+    font-size: x-small;
+}
+
+.myp {
+    border: 5px solid rgb(145, 255, 255);
+    border-radius: 50%;
+    height: 200px;
+    transition: all .5s ease-in-out;
+}
+
+.myp:hover {
+    transition-duration: .8s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    scale: 1.1;
+}
+
+/* About section */
+.aboutsec {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.pho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.aboutphoto {
+    height: 300px;
+    align-self: center;
+}
+
+.p{
+    font-size: x-small;
+}
+
+.aboutcontent {
+    padding: 20px;
+    text-align: center;
+}
+
+.aboutcontent h2 {
+    color: aqua;
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+/* Skills section */
+.skillsec {
+    padding: 20px;
+    text-align: center;
+}
+
+.g{
+    height: 100px;
+    width: 100px;
+}
+
+.skillsec h1 {
+    font-size: 2rem;
+    color: aqua;
+    padding-bottom: 20px;
+}
+
+.skillcard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.cd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 135px;
+    width: 100px;
+    border: 2px solid azure;
+    border-radius: 12%;
+    text-align: center;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+
+.cd:hover {
+    background-color: aliceblue;
+    scale: 1.1;
+}
+
+.cd h3 {
+    color: aqua;
+}
+
+.cd:hover h3 {
+    color: black;
+}
+
+/* Education section */
+.educationsec {
+    padding: 20px;
+    text-align: center;
+}
+
+.educationsec h1 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.eduboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.edubox {
+    border: 2px solid aqua;
+    border-radius: 12px;
+    padding: 20px;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+.edubox:hover {
+    background-color: aliceblue;
+    scale: 1.09;
+}
+
+.edubox h2 {
+    color: rgb(132, 255, 255);
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.edubox h4 {
+    font-size: 1rem;
+    color: rgb(186, 255, 255);
+    padding-bottom: 10px;
+}
+
+.edubox p {
+    font-size: 1rem;
+    color: rgb(215, 255, 255);
+}
+
+.edubox:hover h2 {
+    color: rgb(0, 175, 175);
+}
+
+.edubox:hover h4 {
+    color: rgb(0, 100, 100);
+}
+
+.edubox:hover p {
+    color: rgb(0, 51, 51);
+}
+
+/* Contact section */
+.contact {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    color: aqua;
+    padding-bottom: 20px;
+}
+
+.allcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.cb {
+    border: 2px solid aqua;
+    border-radius: 6px;
+    padding: 10px;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+}
+
+.cb:hover {
+    cursor: crosshair;
+    scale: 1.3;
+    background-color: aliceblue;
+}
+
+.cb a {
+    all: unset;
+    color: rgb(131, 255, 255);
+}
+
+.cb:hover a {
+    color: rgb(0, 59, 59);
+}

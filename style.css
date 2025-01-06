@@ -163,6 +163,23 @@ p{
 
 }
 
+.p{
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    /* scale: 1.1; */
+    font-size: 1.5rem;
+    padding-top: 380px;
+}
+
+.ppp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
 .aboutcontent{
     padding-top: 200px;
     padding-bottom: 200px;
@@ -171,7 +188,7 @@ p{
         color: aqua;
         padding-top: 90px;
         font-size: 4rem;
-        padding-bottom: 90px;
+        /* padding-bottom: 90px; */
     }
 }
 /* sbout section khtm */
