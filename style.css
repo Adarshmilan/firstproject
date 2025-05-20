@@ -283,6 +283,7 @@ p{
     flex-direction: column;
     gap: 2vw;
     transition-duration: 0.9s;
+    border-radius: 12px;
     h2{
         color: rgb(132, 255, 255);
         font-size: 2rem;
@@ -300,7 +301,7 @@ p{
     
 }
 
-.projectcard:hover {
+.probox:hover {
     background-color:aliceblue;
     box-shadow: 0 0 15px aqua;
     scale: 1.09;
@@ -349,6 +350,16 @@ p{
 .proimg img{
     height: 300px;
     display: block;
+}
+
+.upcomming{
+    padding-left: 300px;
+    filter: blur(2px);
+}
+
+.overlay{
+    filter: contrast(0.5);
+    filter:hue-rotate(180deg);
 }
 
 /* education section */
