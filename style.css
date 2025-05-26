@@ -254,6 +254,15 @@ p{
     scale: 1.1;
 }
 
+.g{
+    height: 10vw;
+    width: 10vw;
+    
+    
+    transition-duration: 0.7s;
+    transition-timing-function: ease-in-out;
+}
+
 /* skill section end */
 
 /* project section  */
