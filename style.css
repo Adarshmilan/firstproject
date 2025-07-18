@@ -340,7 +340,8 @@ p{
     
     display: flex;
     flex-direction: row;
-    height: 21vw;
+    height: 22vw;
+    width: 100%;
     border: 3px solid aqua;
     border-radius: 12px;
     box-shadow: 0 0 10px aqua;
