@@ -1,27 +1,39 @@
+# 🌐 Adarsh Milan – Portfolio Website
 
-🌐 Adarsh Milan – Portfolio Website
-Welcome to the personal portfolio website of Adarsh Milan, designed to showcase skills, education, and contact details in a clean, responsive layout.
+My first portfolio website, built from scratch with **HTML and CSS** only. It introduces me, lists my skills and projects, and shows my education and contact details.
 
-✨ "Built with love using HTML & CSS" ✨
+✨ *Built with love using HTML & CSS* ✨
 
-🚀 Features
-✅ Responsive Design – Optimized for all screen sizes including mobiles.
+## 🚀 Sections
 
-🧭 Navigation Bar – Links to Home, About, Skills, Education, and Contact.
+- **Navbar** – Home, About, Skills, Education, Contact
+- **Sidebar** – links to Instagram, GitHub, X/Twitter and LinkedIn
+- **About Me** – short intro with headshot
+- **Skills** – icon cards for HTML, CSS, JS, Python, Git, GitHub, C, Bash, Java, Linux, Command Line, SQL, Prompt Engineering, Photo Editing and Video Editing
+- **Projects** – Portfolio Website, Multi-Purpose Converter Tool, Know Your Bharm (cosmic Q&A)
+- **Upcoming** – Uttardaata (AI voice assistant)
+- **Education** – B.Tech CSE, ADCA, Higher Secondary, Secondary School
+- **Contact** – email and phone
 
-📱 Sidebar – Social media links: Instagram, GitHub, X/Twitter, LinkedIn.
+## 🛠️ Tech stack
 
-🙋 About Section – Brief introduction and background.
+- **HTML5**
+- **CSS3** – `style.css` for desktop and `mobilestyyle.css` for small screens (fully responsive)
 
-💻 Skills Section – Tech stack highlights with relevant icons.
+## 📁 Structure
 
-🎓 Education Section – Academic journey and achievements.
+```
+firstproject/
+├── index.html
+├── style.css          # desktop styles
+├── mobilestyyle.css   # mobile overrides
+└── pho/               # headshot, skill icons, social icons, screenshots
+```
 
-📬 Contact Section – Email & phone information for reaching out.
+## ▶️ Run it
 
-🛠️ Technologies Used
-🔹 HTML5
-
-🔹 CSS3
-
-Custom desktop and mobile stylesheets for full responsiveness
+```bash
+git clone https://github.com/Adarshmilan/firstproject.git
+cd firstproject
+xdg-open index.html     # or double-click index.html
+```
